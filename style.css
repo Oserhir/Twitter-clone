@@ -5,3 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+    background-color: black;
+}
+
+a {
+    color: rgb(255, 255, 255) ;
+}

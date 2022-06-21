@@ -13,7 +13,7 @@ body {
 }
 
 .nav-links a {
-  font-size: 15px;
+  font-size: 10px;
   color: white;
   font-weight: 400;
   text-decoration: none;
@@ -41,23 +41,19 @@ header {
 .nav-links a {
   display: flex;
   align-items: center;
-  font-size: 16px;
+  font-size: 14px;
   width: fit-content;
   padding: 7px;
 }
 
 .nav-links a i {
-  font-size: 30px;
+  font-size: 20px;
   margin-right: 10px;
 }
 
 .nav-links a:hover {
   background-color: rgb(82, 82, 82);
   border-radius: 20px;
-}
-
-.main-account {
-  height: 30%;
 }
 
 .Explore {
@@ -71,3 +67,26 @@ header {
 .nav-links a:first-child i {
   margin: 0px;
 }
+
+.tweet-button {
+  width: 90%;
+  font-size: 14px;
+  padding: 12px;
+  margin-top: 15px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  font-weight: bold;
+  border-radius: 9999px;
+  transition-duration: 0.2s;
+}
+
+.tweet-button:hover {
+  background-color: rgba(29, 155, 240, 0.9);
+}
+
+/* Main Account */
+
+
+ 

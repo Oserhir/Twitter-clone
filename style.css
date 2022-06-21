@@ -7,9 +7,67 @@
 }
 
 body {
-    background-color: black;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
-a {
-    color: rgb(255, 255, 255) ;
+.nav-links a {
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0px 10px 13%;
+  height: 100%;
+  position: fixed;
+  width: 29%;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 70%;
+  padding: 4px;
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  width: fit-content;
+  padding: 7px;
+}
+
+.nav-links a i {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.nav-links a:hover {
+  background-color: rgb(82, 82, 82);
+  border-radius: 20px;
+}
+
+.main-account {
+  height: 30%;
+}
+
+.Explore {
+  font-weight: 600;
+}
+
+.nav-links a:first-child {
+  padding: 8px 8px;
+}
+
+.nav-links a:first-child i {
+  margin: 0px;
 }

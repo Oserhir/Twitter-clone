@@ -88,5 +88,24 @@ header {
 
 /* Main Account */
 
+.main-account {
+  width: 100%;
+  height: 30%;
+  padding-top: 120px;
+  color: white;
+  background-color: red;
+}
 
- 
+.acc-info {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5px;
+  padding: 8px 10px 8px 15px;
+}
+
+.tweet-image {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: white;
+}

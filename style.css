@@ -129,3 +129,26 @@ header {
 .account_handle {
   color: rgb(110, 118, 125);
 }
+
+/* main */
+
+main {
+  width: 71%;
+  height: 100%;
+  margin-left: 29%;
+}
+
+.main-flex {
+  display: flex;
+  width: 100%;
+}
+
+.main-feed {
+  width: 50%;
+  border-left: 1px solid rgb(82, 82, 82);
+  border-right: 1px solid rgb(82, 82, 82);
+}
+
+.side-feed {
+  width: 50%;
+}

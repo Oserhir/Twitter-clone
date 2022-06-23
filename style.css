@@ -167,3 +167,28 @@ main {
   top: 0;
   background-color: black;
 }
+
+/* new-tweet */
+
+.new-tweet {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  padding: 4px 16px;
+}
+
+.new-tweet .tweet-image {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.new-tweet-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 4px;
+  width: 100%;
+  margin-left: 12px;
+  
+}

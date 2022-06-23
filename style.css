@@ -143,6 +143,8 @@ main {
   width: 100%;
 }
 
+/* main FEED */
+
 .main-feed {
   width: 50%;
   border-left: 1px solid rgb(82, 82, 82);
@@ -151,4 +153,17 @@ main {
 
 .side-feed {
   width: 50%;
+}
+
+.home-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  align-items: center;
+  font-weight: 400;
+  position: sticky;
+  top: 0;
+  background-color: black;
 }
